@@ -1,47 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
 <body>
 
     <header>
+        <div class="header-navigation">
+            <img src="./src/assets/image/logo.svg" alt="Logo GoldPlay">
 
-        <div>
-            <img src="./src/image/logo.svg" alt="Logo">
-        
-            <nav aria-label="Navegação Pricipal">
-                <ul>
-                
+            <nav aria-label="Navegação Principal">                
+                <ul class="itens-navigation">
                     <li><a href="">Início</a></li>
-                    <li><a href="">Gênero</a></li>
+                    <li><a href="">Gêneros</a></li>
                     <li><a href="">Planos</a></li>
                     <li><a href="">Catálogos</a></li>
                 </ul>
+            </nav>     
+        </div>
+
+        <div class="container-search">
+
+            <form>
+                <input type="text">
+                <button><img src="./src/assets/image/lupa-pesquisa.svg" alt="icon Lupa"></button>
+            </form>
+            
+            <nav>
+                <a href="" class="btnHeader">Entrar</a>
             </nav>
 
         </div>
 
-        <div>
-            
-            <form>
-
-                <input type="text">
-                <button><img src="./src/image/lupa-pesquisa.svg" alt="Lupa de pesquisa"></button>
-            </form>
-
-            <nav><a href="">Entrar</a></nav>
-
-        </div>
-        
-
     </header>
 
+    <main>
+        <h1>Todo o entreterimento em um <span>único lugar</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <nav>
+            <a href="" class="btnPrimary">Começar agora</a>
+            <a href="" class="btnOutline">Conheça a plataforma</a>
+        </nav>
+    </main>
 
-    
+
+
+
 </body>
 </html>
