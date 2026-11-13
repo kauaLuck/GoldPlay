@@ -122,3 +122,56 @@ main nav{
     font-family: var(--font-body);
     
 }
+
+.card-genre{
+    position: relative;
+}
+.details-genre{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: var(--color-foreground);
+    
+}
+
+.details-genre h3{
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: var(--font-size-h3);
+}
+
+.details-genre p{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
+.section-genre{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: var(--color-black);
+}
+
+.section-genre > div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-genre h2{
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    color: var(--color-foreground);
+    font-weight: 400;
+}
+
+.section-genre h2 span{
+    color: var(--color-brand);
+}
+
+.container-genre{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 20px;
+}
+
